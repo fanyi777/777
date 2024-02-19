@@ -4,29 +4,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="code.js">
-
+    <title>Document</title>
+    <link rel="stylesheet" href="login.css">
 </head>
 
 <body>
-    <h1>Login</h1>
+
     <main>
         <form action="" id="myForm" onsubmit="submitForm(event)">
             <div class="app">
-                <div class="line">   
+                <div class="line">
                     <div class="item">
                         <div>
-                            姓名
+                            username
                         </div>
                         <div>
 
                             <input type="text" id="name1" placeholder="姓名を入れてください">
                         </div>
                     </div>
-                    <div class="item ">
-                        <div>カタカナ</div>
+                    <div class="item">
+                        <div>email</div>
                         <div>
                             <input type="text" id="name2" placeholder="カタカナを入れてください">
                         </div>
@@ -36,48 +34,25 @@
                 <div class="line">
                     <div class="item">
                         <div>
-                            Email
+                            password
                         </div>
                         <input type="text" id="email" placeholder="emailを入れてください">
                     </div>
                 </div>
 
-                <div class="line">
-                    <div class="item">
-                        <div>
-                            国籍
-                        </div>
-                        <select name="" id="country" aria-placeholder="s">
-                            <option disabled selected>選んでください</option>
-                            <option value="中国">
-
-                                中国
-                            </option>
-                            <option value="日本">
-
-                                日本
-                            </option>
-                            <option value="アメリカ">
-
-                                アメリカ
-                            </option>
-                        </select>
-                    </div>
 
 
-                </div>
-                <hr style="background-color: #cfd0d2;height: 2px;width: 100%;border: 0;border-radius: 10px;">
+            </div>
+            <hr style="background-color: #cfd0d2;height: 2px;width: 100%;border: 0;border-radius: 10px;">
 
-                <div onclick="submitForm()" class="submit">
-                    登録
-                </div>
+            <div onclick="submitForm()" class="submit">
+                login
+            </div>
 
-                <hr style="background-color: #cfd0d2;height: 2px;width: 100%;border: 0;border-radius: 10px;">
+            <hr style="background-color: #cfd0d2;height: 2px;width: 100%;border: 0;border-radius: 10px;">
             </div>
         </form>
     </main>
-
-
 </body>
 
 </html>
