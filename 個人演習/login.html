@@ -5,36 +5,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="code.js">
 
 </head>
 
 <body>
     <h1>Login</h1>
-    <form action="" id="myForm" onsubmit="submitForm(event)">
-        <div class="app">
-            <div class="line">
-                <div class="item">
-                    <div>
-                        姓
+    <main>
+        <form action="" id="myForm" onsubmit="submitForm(event)">
+            <div class="app">
+                <div class="line">   
+                    <div class="item">
+                        <div>
+                            姓名
+                        </div>
+                        <div>
+
+                            <input type="text" id="name1" placeholder="姓名を入れてください">
+                        </div>
                     </div>
-                    <input type="text" id="name1" placeholder="山田">
-                </div>
-                <div class="item ">
-                    <div>名</div>
-                    <input type="text" id="name2" placeholder="泰郎">
-                </div>
-            </div>
-
-            <div class="line">
-                <div class="item">
-                    <div>
-                        Email
+                    <div class="item ">
+                        <div>カタカナ</div>
+                        <div>
+                            <input type="text" id="name2" placeholder="カタカナを入れてください">
+                        </div>
                     </div>
-                    <input type="text" id="email" placeholder="you@example.com" style="width: 99%;">
                 </div>
 
-
-
+                <div class="line">
+                    <div class="item">
+                        <div>
+                            Email
+                        </div>
+                        <input type="text" id="email" placeholder="emailを入れてください">
+                    </div>
+                </div>
 
                 <div class="line">
                     <div class="item">
@@ -42,7 +48,7 @@
                             国籍
                         </div>
                         <select name="" id="country" aria-placeholder="s">
-                            <option disabled selected>選択...</option>
+                            <option disabled selected>選んでください</option>
                             <option value="中国">
 
                                 中国
@@ -68,37 +74,8 @@
 
                 <hr style="background-color: #cfd0d2;height: 2px;width: 100%;border: 0;border-radius: 10px;">
             </div>
-    </form>
-
-    <table id="table">
-        <tr>
-            <td>
-                姓
-            </td>
-            <td>
-                名
-            </td>
-            <td>
-                Email
-            </td>
-            <td>
-                住所1
-            </td>
-            <td>
-                住所2
-            </td>
-            <td>
-                国籍
-            </td>
-            <td>
-                操作
-            </td>
-        </tr>
-
-
-
-
-    </table>
+        </form>
+    </main>
 
 
 </body>
