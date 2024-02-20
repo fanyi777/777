@@ -1,0 +1,49 @@
+ body {
+      margin: 0;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      padding: 0 20px;
+      background: linear-gradient(to right, #e1d1ef, rgba(114, 50, 128, 0.6));
+      height: 40px;
+      align-items: center;
+      color: rgb(16, 15, 15);
+      
+    }
+
+    a {
+      text-decoration: none;
+      color: black;
+      /* color: white; */
+      background-color: white;
+      padding: 5px 10px;
+      border-radius: 10px;
+      margin: 0 10px;
+    }
+
+    #blog-list {
+      display: flex;
+      flex-direction: column;
+      padding: 10px;
+
+    }
+
+    .tBlog {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .blog-meta {
+      /* width: 600px; */
+      background-color: rgb(137, 62, 177);
+      color: white;
+      padding: 10px;
+      border-radius: 10px;
+    }
+
+    .blog-content {
+      font-style: italic;
+      font-size: 17px;
+    }

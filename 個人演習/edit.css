@@ -1,6 +1,29 @@
 .item{
-    background-color: #7da2d2;
-    padding: 10px 0;
+    background-color: #526c95;
+    padding: 25px 0;
+    text-align: center;
+    color: white;
+}
+.body {text-align: center;
+    }
+input {
+    margin: 10px 0 ;
+}
+h1 {
+    background-color: #526c95;
+    color: rgb(15, 13, 13);
+    padding: 10px;
+}
+#cont {
+    margin-left: 20px;
+}
+#cont2 {
+    margin-left: 10px;
+}
+input {
+    border-radius: 5px;
+    padding: 5px;
+    outline: none;
 }
 
 .line{
@@ -15,7 +38,7 @@
     margin: 30px 0;
 }
 .user-login-form{
-    background-color: #D6EEE1;
+    background-color: white;
     width: 60%;
     margin: 0 auto;
     padding: 16px 0;
@@ -32,20 +55,29 @@ label{
     width: 150px;
 }
 
-#email,#password{
+#email,#password{   
     width: 220px;
     height: 30px;
 }
+button {
+    background-color: #526c95;
+    color: white;
+    width: 150px;
+    border: none;
+    height: 30px;
+    border-radius: 5px;
+}
 
 .user-login-btn{
-    background-color: #40CD82;
+    background-color: #526c95;
+    color: white;
     width: 150px;
     height: 44px;
     border-radius: 22px;
 }
 
 .form-row a{
-  color: blue;
+  color: rgb(101, 101, 190);
   text-decoration: none;
 }
 .user-new{
