@@ -4,52 +4,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Login</title>
     <link rel="stylesheet" href="login.css">
 </head>
 
 <body>
+    <form action="/login" method="post">
+        <div class="item">
 
-    <main>
-        <form action="" id="myForm" onsubmit="submitForm(event)">
-            <div class="app">
-                <div class="line">
-                    <div class="item">
-                        <div>
-                            User name
-                        </div>
-                        <div>
-                            <input type="text" id="name1" placeholder="姓名を入れてください">
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div>email</div>
-                        <div>
-                            <input type="text" id="name2" placeholder="カタカナを入れてください">
-                        </div>
-                    </div>
-                </div>
+            <h1>Login</h1>
 
-                <div class="line">
-                    <div class="item">
-                        <div>
-                            password
-                        </div>
-                        <input type="text" id="email" placeholder="emailを入れてください">
-                    </div>
-                </div>
-
-
-
+            <div class="new">
+                <label for="user">User name</label>
+                <input type="text" placeholder="ユーザー名を入れてください" id="user" name="username">
             </div>
-            <hr>
 
-            <button>Login</button>
+            <div class="new">
+                <label for="pass">Password</label>
+                <input type="password" placeholder="パスワードを入れてください" id="pass" name="password">
+            </div>
 
-            <hr>
+            <div class="box">
+                <label for="remember">Remember Me</label>
+                <input type="checkbox" id="remember">
+            </div>
 
-        </form>
-    </main>
+            <div>
+                <br>
+                <input type="submit" class="line" value="Login">
+                <button class="line">Register</button>
+            </div>
+
+            <div>
+                <a href="#">パスワードを忘れた方</a>
+            </div>
+
+        </div>
+    </form>
 </body>
 
 </html>

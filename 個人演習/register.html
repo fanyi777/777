@@ -4,77 +4,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
+    <title>Register</title>
     <link rel="stylesheet" href="register.css">
-
 </head>
 
 <body>
-    <h1>Register</h1>
-    <main>
-        <form action="" id="myForm" onsubmit="submitForm(event)">
-            <div class="app">
-                <div class="line">
-                    <div class="item">
-                        <div>
-                            姓名
-                        </div>
-                        <div>
+    <form action="/register" method="post">
+        <div class="item">
 
-                            <input type="text" id="name1" placeholder="姓名を入れてください">
-                        </div>
-                    </div>
-                    <div class="item ">
-                        <div>カタカナ</div>
-                        <div>
-                            <input type="text" id="name2" placeholder="カタカナを入れてください">
-                        </div>
-                    </div>
-                </div>
+            <h1>Register</h1>
 
-                <div class="line">
-                    <div class="item">
-                        <div>
-                            Email
-                        </div>
-                        <input type="text" id="email" placeholder="emailを入れてください">
-                    </div>
-                </div>
-
-                <div class="line">
-                    <div class="item">
-                        <div>
-                            国籍
-                        </div>
-                        <select name="" id="country" aria-placeholder="s">
-                            <option disabled selected>選んでください</option>
-                            <option value="中国">
-
-                                中国
-                            </option>
-                            <option value="日本">
-
-                                日本
-                            </option>
-                            <option value="アメリカ">
-
-                                アメリカ
-                            </option>
-                        </select>
-                    </div>
-
-
-                </div>
-                <hr style="background-color: #cfd0d2;height: 2px;width: 100%;border: 0;border-radius: 10px;">
-
-                <button>登録</button>
-
-                <hr style="background-color: #cfd0d2;height: 2px;width: 100%;border: 0;border-radius: 10px;">
+            <div class="new">
+                <label for="user">User name</label>
+                <input type="text" placeholder="ユーザー名を入れてください" id="user" name="username">
             </div>
-        </form>
-    </main>
 
+            <div class="new">
+                <label for="email">Email</label>
+                <input type="email" placeholder="メールアドレスを入れてください" id="email" name="email">
+            </div>
 
+            <div class="new">
+                <label for="pass">Password</label>
+                <input type="password" placeholder="パスワードを入れてください" id="pass" name="password">
+            </div>
+
+            <div class="new">
+                <label for="repeat">Repeat Password</label>
+                <input type="password" placeholder="パスワード再入力" id="repeat" name="repeatpassword">
+            </div>
+
+            <div>
+                <br>
+                <input type="submit" class="line" value="Register">
+            </div>
+
+            <div>
+                Already have an account?
+                <a href="#">Login</a>
+            </div>
+
+        </div>
+    </form>
 </body>
 
 </html>

@@ -1,61 +1,64 @@
-.item{
-    background-color: #7da2d2;
-    padding: 10px 0;
+* {
+    margin: 0;
+    padding: 0;
 }
 
-.line{
-    text-align: center;
-    color: rgb(9, 9, 9);
-    font-weight: bold;
-    margin: 30px 0;
-}
-.submit{
-    text-align: center;
-    font-weight: bold;
-    margin: 30px 0;
-}
-.user-login-form{
-    background-color: #D6EEE1;
-    width: 60%;
-    margin: 0 auto;
-    padding: 16px 0;
-}
-
-.form-row{
+body {
     display: flex;
-    align-items: center;
     justify-content: center;
-    margin: 16px 0;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(215, 192, 236);
 }
 
-label{
-    width: 150px;
+.item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 400px;
+    border-top: 1px solid rgba(38, 34, 34, 0.5);
+    border-left: 1px solid rgba(38, 34, 34, 0.5);
+    border-bottom: 1px solid rgba(38, 34, 34, 0.5);
+    border-right: 1px solid rgba(38, 34, 34, 0.5);
+    background-color: rgb(196, 209, 251);
 }
 
-#email,#password{
-    width: 220px;
-    height: 30px;
+.new {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    margin-bottom: 20px;
+    font-size: 18px;
 }
 
-.user-login-btn{
-    background-color: #40CD82;
-    width: 150px;
-    height: 44px;
-    border-radius: 22px;
+h1 {
+    margin-bottom: 25px;
 }
 
-.form-row a{
-  color: blue;
-  text-decoration: none;
+input {
+    font-size: 15px;
+    height: 32px;
+    width: 240px;
 }
-.user-new{
-    text-align: center;
-    margin-top: 50px;
-}
-.user-new-btn{
+
+a {
     text-decoration: none;
-    background-color: #40CD82;
-    padding: 20px ;
-    border-radius: 22px;
-    color: black;
+    color: rgb(114, 81, 160);
+    font-size: 13px;
+}
+
+.line {
+    width: 110px;
+    height: 30px;
+    margin-bottom: 20px;
+    font-size: 13px;
+}
+
+.box {
+   font-size: 13px;
+   width: 245px;
+   height: 50px;
 }

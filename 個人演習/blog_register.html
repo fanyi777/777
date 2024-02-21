@@ -4,14 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>blog_edit</title>
-    <link rel="stylesheet" href="blog_edit.css">
+    <title>blog_register</title>
+    <link rel="stylesheet" href="blog_register.css">
 </head>
 
 <body>
-    <form action="/blog_edit" method="post">
+    <form action="/blog_register" method="post">
 
-        <h1>Blog&nbsp&nbsp&nbsp&nbsp&nbsp&nbspEdit</h1>
+        <h1>記 事 登 録 画 面</h1>
 
         <div class="item">
 
@@ -24,6 +24,9 @@
                 <input type="text" id="date" name="date" class="new" placeholder="date">&nbsp&nbsp&nbsp
                 <input type="reset" value="リセット" class="line"><br><br>
 
+                <label for="summary">概&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp要</label>&nbsp&nbsp&nbsp
+                <input type="text" id="summary" name="summary" class="new" placeholder="summary">&nbsp&nbsp&nbsp
+                <input type="reset" value="リセット" class="line"><br><br>
 
                 <span>カテゴリー</span>&nbsp&nbsp&nbsp
 
@@ -37,9 +40,8 @@
 
                 <p>記事</p>
 
-                <textarea rows="14" cols="58" placeholder="content"></textarea>
-                <br>
-                <br>
+                <textarea rows="14" cols="58" placeholder="content"></textarea><br><br>
+                <input type="file" class="change"><br><br>
 
             </div>
 
@@ -51,7 +53,5 @@
         </div>
     </form>
 </body>
-
-
 
 </html>
