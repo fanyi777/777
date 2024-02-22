@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* list-style: none; */
+}
+
+html {
+  background-color: rgb(216, 202, 229);
+}
+
+h1 {
+  height: 100px;
+  background-color: #aec7f3;
+  text-align: center;
+  line-height: 2.5;
+  font-size: 45px;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 21px;
+  height: 70px;
+  line-height: 2.3;
+  background-color: rgb(229, 230, 212);
+}
+
+a {
+  text-decoration: none;
+  color: rgb(40, 66, 122);
+}
+
+button {
+  background-color: rgb(150, 116, 181);
+  color: white;
+  font-size: 18px;
+  height: 35px;
+  width: 100px;
+}
+
+.item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  height: 480px;
+} 
+
+h2 {
+ height: 100px;
+ text-align: center;
+ line-height: 6;
+ font-size: 25px;
+}
+
+.new {
+  display: flex;
+  align-items: center;
+  background-color: rgb(168, 195, 191);
+  font-size: 19px;
+  height: 500px;
+  flex-direction: column;
+  line-height: 1.5;
+}
+
+.line {
+  height: 100px;
+  text-align: center;
+  line-height: 4;
+  font-size: 25px;
+  background-color: rgb(168, 195, 191);
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  background-color: rgb(156, 177, 194);
+  height: 480px;
+}
+
+.box {
+  height: 100px;
+  text-align: center;
+  line-height: 4;
+  font-size: 25px;
+  background-color: rgb(156, 177, 194);
+}
+
+.input {
+  background-color: rgb(156, 177, 194);
+  font-size: 19px;
+  height: 150px;
+  line-height: 1.6;
+}

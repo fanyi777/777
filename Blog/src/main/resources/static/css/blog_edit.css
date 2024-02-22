@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    background-color: hsl(217, 35%, 52%);
+    padding: 30px 0;
+    color: white;
+    text-align: center;
+    font-size: 50px;
+}
+
+body {
+    background-color: rgb(196, 209, 251);
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    background-color: rgb(196, 209, 251);
+    line-height: 2;
+    font-size: 22px;
+}
+
+.new {
+    font-size: 15px;
+    height: 25px;
+    width: 200px;
+}
+
+.line {
+    font-size: 14px;
+    width: 80px;
+    height: 28px;
+    color: white;
+    background-color: rgb(74, 81, 161);
+}
+
+.nav {
+    width: 120px;
+    border: none;
+    height: 30px;
+}
+
+.main {
+    font-size: 16px;
+    width: 120px;
+    height: 35px;
+    color: white;
+    background-color: rgb(74, 81, 161)
+} 

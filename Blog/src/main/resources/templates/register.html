@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="register.css">
+</head>
+
+<body>
+    <form action="/register" method="post">
+        <div class="item">
+
+            <h1>Register</h1>
+
+            <div class="new">
+                <label for="user">User name</label>
+                <input type="text" placeholder="ユーザー名を入れてください" id="user" name="username">
+            </div>
+
+            <div class="new">
+                <label for="email">Email</label>
+                <input type="email" placeholder="メールアドレスを入れてください" id="email" name="email">
+            </div>
+
+            <div class="new">
+                <label for="pass">Password</label>
+                <input type="password" placeholder="パスワードを入れてください" id="pass" name="password">
+            </div>
+
+            <div class="new">
+                <label for="repeat">Repeat Password</label>
+                <input type="password" placeholder="パスワード再入力" id="repeat" name="repeatpassword">
+            </div>
+
+            <div>
+                <br>
+                <input type="submit" class="line" value="Register">
+            </div>
+
+            <div>
+                Already have an account?
+                <a href="#">Login</a>
+            </div>
+
+        </div>
+    </form>
+</body>
+
+</html>

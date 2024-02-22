@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>blog_edit</title>
+    <link rel="stylesheet" href="blog_edit.css">
+</head>
+
+<body>
+    <form action="/blog_edit" method="post">
+        <h1>Blog&nbsp&nbsp&nbsp&nbsp&nbsp&nbspEdit</h1>
+        <div class="item">
+
+            <div>
+                <label for="title">タイトル</label>&nbsp&nbsp&nbsp
+                <input type="text" id="title" name="title" class="new" placeholder="title">&nbsp&nbsp&nbsp
+                <input type="reset" value="リセット" class="line"><br><br>
+
+                <label for="date">期&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp日</label>&nbsp&nbsp&nbsp
+                <input type="text" id="date" name="date" class="new" placeholder="date">&nbsp&nbsp&nbsp
+                <input type="reset" value="リセット" class="line"><br><br>
+
+
+                <span>カテゴリー</span>&nbsp&nbsp&nbsp
+
+                <select class="nav" name="select">
+                    <option disabled selected>選択</option>
+                    <option value="trip">旅行</option>
+                    <option value="sports">スポーツ</option>
+                    <option value="life">日常</option>
+                    <option value="other">その他</option>
+                </select><br><br>
+
+                <p>記事</p>
+
+                <textarea rows="14" cols="58" placeholder="content" name="content"></textarea>
+                <br>
+                <br>
+
+            </div>
+
+            <div>
+                <input type="submit" value="完成" class="main">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                <input type="reset" value="リセット" class="main">
+            </div>
+
+        </div>
+    </form>
+</body>
+
+
+
+</html>
