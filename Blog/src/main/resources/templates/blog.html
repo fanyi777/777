@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog</title>
-    <link rel="stylesheet" href="blog.css">
+    <link rel="stylesheet" th:href="@{/css/blog.css}">
 </head>
 
 <body>
@@ -31,7 +31,7 @@
     <div class="item">
         <table cellspacing="40">
 
-            <img src="haibao.jpg" width="35%">
+            <img th:src="@{/image/haibao.jpg}" width="35%">
 
             <tr>
                 <td width="100">姓名:</td>
@@ -59,7 +59,7 @@
     <h2 class="line" id="you">記事</h2>
 
     <div class="new">
-        <img src="keai.jpg" width="30%">
+        <img th:src="@{/image/keai.jpg}" width="30%">
         <p>
             &nbsp;&nbsp;Mew (Japanese: ミュウ , Hepburn: Myū) is one of the fictional species of creatures from
             Nintendo's and
@@ -89,9 +89,9 @@
     <h2 class="box" id="hao">作品</h2>
 
     <div class="nav">
-        <img src="xiao.jpg" width="33%">
-        <img src="ai.jpg" width="33%">
-        <img src="bao.jpg" width="32%">
+        <img th:src="@{/image/xiao.jpg}" width="33%">
+        <img th:src="@{/image/ai.jpg}" width="33%">
+        <img th:src="@{/image/bao.jpg}" width="32%">
     </div>
 
     <p class="input">
